@@ -66,4 +66,4 @@ class BookInterest(models.Model):
        ordering = ["id"]
 
     def __str__(self):
-      return self.interested_user
+      return f'{self.book.title} - {self.interested_user.username}'

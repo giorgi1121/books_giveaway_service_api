@@ -57,7 +57,7 @@ Welcome to the Book Giveaway Service API, a Django RESTful API project for a boo
    ### Users Interests:
    - It is possible for users to express their interests on different books. For expressing the interest endpoint is /express-interest/. Process is managed by ExpressInterestView. If the user has already expressed interest in a specific book, the application will not allow it.
    ### Book Interests:
-   - It is possible to see all the books in which users have expressed interest. It is also possible to see the interest expressed by users on each individual book, although only the owner of that book has the right to do so. Process is managed by BookInterestsView and AllBooksInterestsView. Endpoints are /book-interests/<int:pk>/ and /all-book-interests/.
+   - It is possible to see all the books in which users have expressed interest. It is also possible to see the interest expressed by users on each individual book. Process is managed by BookInterestsView and AllBooksInterestsView. Endpoints are /book-interests/<int:pk>/ and /all-book-interests/.
    ### Owner Decision:
    - If multiple people are interested in a book, the owner can choose the recipient. The application checks the book on which the user makes a decision whether it belongs to him/her or not and whether the selected user expresses interest in this book. Process is managed by ChooseInterestedUserView. For owner decision endpoint is /choose-interested-user/.
 
