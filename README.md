@@ -130,7 +130,7 @@ git clone https://github.com/giorgi1121/books_giveaway_service_api.git
 
 **Navigate to Project Directory:**
 ```bash
-cd books_giveaway
+cd books_giveaway_service_api
 ```
 
 ### Activate the Virtual Environment
