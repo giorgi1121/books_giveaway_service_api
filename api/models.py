@@ -28,7 +28,7 @@ class Image(models.Model):
     image = models.ImageField(upload_to='images/')
 
     def __str__(self):
-        return self.image
+        return f"Image {self.id}: {self.image}"
   
 
 class Book(models.Model):
